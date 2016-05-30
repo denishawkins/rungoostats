@@ -1,3 +1,4 @@
 for datafile in *[AB].txt; do
-bash goostats "${datafile}" stats-"${datafile"}";
-Done
+	echo Sdatafile 
+	bash goostats "${datafile}" stats-"${datafile"}";
+done
